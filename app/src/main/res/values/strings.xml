@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Retrofit_in_Pokemon</string>
+    <string name="link_new">https://next.json-generator.com/Vy2abloQD</string>
+    <string name="link_old">https://next.json-generator.com/E14trR2lD</string>
+    <string name="link">https://next.json-generator.com/api/json/get/E14trR2lD</string>
+</resources>

@@ -1,0 +1,13 @@
+package com.example.retrofit_in_pokemon;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.http.GET;
+
+public interface GetDataService_Interface {
+
+    @GET("Vy2abloQD")
+    //Call<List<Repo>> listRepos(@Path("user") String user);
+    Call<List<Pokemon_POJO>> getPokemons();
+}
