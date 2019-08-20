@@ -36,7 +36,6 @@ public class RecyclerAdapt extends RecyclerView.Adapter<RecyclerAdapt.ViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-
         Glide.with(context).asBitmap().load(pokemonPOJOArrayList.get(position).getImage()).into(holder.poke_image);
         holder.poke_name.setText(pokemonPOJOArrayList.get(position).getName());
 

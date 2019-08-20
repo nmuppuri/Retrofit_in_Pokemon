@@ -8,6 +8,8 @@ import retrofit2.http.GET;
 public interface GetDataService_Interface {
 
     @GET("Vy2abloQD")
-    //Call<List<Repo>> listRepos(@Path("user") String user);
     Call<List<Pokemon_POJO>> getPokemons();
+
+    @GET("E14trR2lD")
+    Call<Pokemon> getPokemonsObj();
 }

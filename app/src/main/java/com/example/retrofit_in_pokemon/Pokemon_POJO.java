@@ -30,19 +30,7 @@ public class Pokemon_POJO {
 
 
 
-    public Pokemon_POJO() {
-    }
 
-    public Pokemon_POJO(String name, String image, String type, String ability, String height, String weight, String description) {
-        super();
-        this.name = name;
-        this.image = image;
-        this.type = type;
-        this.ability = ability;
-        this.height = height;
-        this.weight = weight;
-        this.description = description;
-    }
 
     public String getName() {
         return name;
